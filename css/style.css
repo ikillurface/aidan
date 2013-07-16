@@ -1,0 +1,44 @@
+body{
+background :blue url("../images/images.jpg")repeat;
+}
+.fullwidth {
+   width:70%;
+   margin:0%,10%;
+   padding:5%;
+   background:whitesmoke;
+}
+
+#top{
+	color:yellow;
+	background:blue;
+}
+#main h1{
+}
+
+#main{
+	color:yellow;
+	float:left;
+}
+#bottom{
+	color:yellow;
+	clear:left;
+	background:orange;
+}
+#content{
+   width:60%;
+   padding:5%;
+   margin-right: 1%;
+   float:left;
+   background:red;
+}
+#sidebar{
+	width:25%;
+	padding:2%;
+	float:left;
+	background:green;
+}
+@media (max-width:480px){
+	.fullwidth{
+	width:100;
+	margin:0%;
+}
